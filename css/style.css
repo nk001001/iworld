@@ -1,0 +1,221 @@
+/* global class */
+.main_container {
+    max-width: 1300px;
+    width: 100%;
+    
+}
+/* .font {
+    font-family: 'Oswald', sans-serif;
+} */
+
+/*  header class start */
+
+.container_N1 {
+    width: 100%;
+    background-color: rgb(15, 9, 86);
+    height: 40px;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.fa-globe {
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+    padding-right: 5px;
+    text-align: center;
+}
+.fa-caret-down {
+    color: aliceblue;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.container_N1 ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.954);
+    padding-right: 15px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+}
+.container_N1 ul li a:hover {
+    color: rgba(0, 255, 255, 0.637);
+}
+.container_N1_wrap {
+    display: flex;
+    justify-content: space-between;  
+}
+
+/* container 1 scroll start */
+.container_N1_scroll_box{
+    display: none;
+}
+/* .container_N1_scroll_box ul li  {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(27, 74, 193);
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+} */
+.container_N1_scroll_box ul li a:hover {
+    color: rgba(255, 255, 255, 0.954);
+}
+.container_N1_scroll_box ul li:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.container_N1_scroll:hover .container_N1_scroll_box {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.container_N1_scroll:hover .container_N1_scroll_box ul {
+    display: block;
+    margin: 10px;
+}
+
+.container_N1_scroll:hover .container_N1_scroll_box ul li {
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(27, 74, 193);
+    width: 100px;
+    height: 50px;
+}
+
+
+
+/* container 1 scroll end */
+
+/* container N2 start */
+.container_N2 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(15, 9, 86);
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.fa-bars {
+    font-size: 40px;
+    color: white;
+}
+.fa-bars_scroll {
+    display: none;
+}
+.fa-bars_scroll ul li {
+    width: 200px;
+    height: 50px;
+    background-color: antiquewhite;
+    font-size: 15px;
+    text-align: center;
+}
+.fa-bars:hover .fa-bars_scroll{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fa-items {
+    font-size: 30px;
+    padding-right: 5px;
+    color: white;
+}
+
+.container_N2_iworld{
+    max-width: 200px;
+    width: 100%;
+}
+.container_N2 span {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.954);
+    padding-right: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.container_N2 h6 {
+    font-size: 9px;
+    color: aliceblue;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+.info {
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.container_N2_scroll_box {
+    display: none;
+}
+
+.container_N2_scroll_box ul li {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(27, 74, 193);
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.container_N2_scroll_box ul li:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.container_N2_scroll_box ul li a {
+    color: rgba(255, 255, 255, 0.954);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container_N2_scroll:hover .container_N2_scroll_box {
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+/* header end */
+
+/* section start */
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.home {
+    width: 300px;
+    height: 500px;
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block {
+    width: 550px;
+    height: 500px;
+    background-image: url("../img/block.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tv {
+    width: 300px;
+    height: 500px;
+    background-image: url("../img/tv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
